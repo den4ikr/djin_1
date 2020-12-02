@@ -1,0 +1,13 @@
+.avatar {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.user__block {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
