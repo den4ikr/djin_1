@@ -45,7 +45,7 @@ export const getUsers = (currentPage, pageSize) => async (dispatch) => {
 export const followUnfollowFlow = async (dispatch, userId, apiMethod, actionCreator) => {
     const response = await apiMethod (userId);
     if (response.data.resultCode === 0) {
-        dispatch (actionCreator (userId));
+        dispatch (actionCreator (userId))
     }
 }
 
